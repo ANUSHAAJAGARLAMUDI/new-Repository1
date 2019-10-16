@@ -21,6 +21,10 @@ import com.custApp.model.service.CustomerService;
 public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
+@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home() {
+		return "redirect:login";
+	}
 
 	
 
