@@ -17,7 +17,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
-@Table(name = "cust_data1")
+@Table(name = "cust_data3")
 public class Customer {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
