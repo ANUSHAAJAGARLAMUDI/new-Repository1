@@ -29,10 +29,7 @@ public class UserController {
 		userService.addUser(new User("sravs", "sravs@gmail.com", "sravs123", "manager", true));
 		userService.addUser(new User("ajay", "ajay123@gmail.com", "ajay", "user", true));
 }
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home() {
-		return "redirect:login";
-	}
+	
 	
 	@RequestMapping(value = "login")
 	public String loginGet(HttpServletRequest req,ModelMap map) {
