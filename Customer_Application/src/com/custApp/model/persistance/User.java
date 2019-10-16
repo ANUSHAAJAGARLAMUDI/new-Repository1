@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 //@Table(name="user_table",uniqueConstraints={@UniqueConstraint(columnNames={"email"})})
-@Table(name="user_table1")
+@Table(name="user_table4")
 public class User {
 	@Id
 	@GeneratedValue
